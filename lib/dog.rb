@@ -26,7 +26,7 @@ class Dog
   end 
   
   def self
-    @@all.push(self)
+    @@all.push(self.new)
   end 
   
   
