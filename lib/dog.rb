@@ -20,8 +20,8 @@ class Dog
   end 
   
   def self.print_all
-    @@all.each do |name|
-      puts name
+    @@all.each do |dog_objects|
+      puts dog_objects.name
     end 
   end 
   
