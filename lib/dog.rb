@@ -25,7 +25,8 @@ class Dog
     end 
   end 
   
-  def self.
+  def self
+    @@all.push(self)
   end 
   
   
